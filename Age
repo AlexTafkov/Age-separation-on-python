@@ -1,0 +1,30 @@
+print("Welcome in our age separetion test! \nHere we are separeting the kid, teen, grown and old pat of the society \nTo begin the test please type your name")
+x = input("Enter name: ")
+
+print("Hello " + x)
+print(x + "Do you want to countinue?")
+
+yes = "yes"
+
+print("type 'yes' or else the test is over")
+
+yes1 = input()
+
+
+
+
+if yes == yes1:
+    print("Alright then \nHow old are you?: ")
+    age = input()
+    age = int(age)
+    if age <= 12:
+        print("So you're a kid")
+    elif 18 > age >= 12:
+        print("You're a teenager")
+    elif 55 > age >= 18:
+        print("Adult, great!")
+    elif age >= 55:
+        print("Oh, you're old")
+
+else:
+    print("Goodbye!")
